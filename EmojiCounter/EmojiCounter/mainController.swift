@@ -63,11 +63,6 @@ class mainController: UIViewController {
             textField.isEnabled = false
         }
     }
-    
-    func encode(_ s: String) -> String {
-        let data = s.data(using: .nonLossyASCII, allowLossyConversion: true)!
-        return String(data: data, encoding: .utf8)!
-    }
 
     
 
